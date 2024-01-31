@@ -1,0 +1,44 @@
+/* App.css */
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin-top: 50px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.Square {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #333;
+  border-radius: 5px;
+  margin: 0 auto;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.InputField {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  outline: none;
+}
+
+/* Optional: Style the input placeholder */
+.InputField::placeholder {
+  color: #999;
+}
+
+/* Optional: Style the input on focus */
+.InputField:focus {
+  border-color: #007bff;
+}
